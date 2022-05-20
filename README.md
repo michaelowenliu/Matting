@@ -189,7 +189,7 @@ python tools/predict.py \
 ```
 If the model requires trimap information, pass the trimap path through '--trimap_path'.
 
-`--fg_Estimate False` can turn off foreground estimation, which improves prediction speed but reduces image quality.
+`--fg_estimate False` can turn off foreground estimation, which improves prediction speed but reduces image quality.
 
 You can directly download the provided model for evaluation.
 
@@ -213,7 +213,7 @@ If the model requires trimap information, pass the trimap path through `--trimap
 
 `--background` can pass a path of brackground image or select one of ('r', 'g', 'b', 'w') which represent red, green, blue and white. If it is not specified, a green background is used.
 
-`--fg_Estimate False` can turn off foreground estimation, which improves prediction speed but reduces image quality.
+`--fg_estimate False` can turn off foreground estimation, which improves prediction speed but reduces image quality.
 
 **note：** `--image_path` must be a image path。
 
