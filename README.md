@@ -18,14 +18,14 @@ Matting is widely used in a variety of industries, such as video clip, video syn
 ## Contents
 - [Matting](#matting)
 - [One-click experience](#one-click-experience)
-  - [Contents](#contents)
-  - [Installation](#installation)
-  - [Model Zoo](#model-zoo)
-  - [Dataset preparation](#dataset-preparation)
-  - [Training, Evaluation and Prediction](#training-evaluation-and-prediction)
-  - [Background Replacement](#background-replacement)
-  - [Export and Deploy](#export-and-deploy)
-  - [Acknowledgement](#acknowledgement)
+- [Contents](#contents)
+- [Installation](#installation)
+- [Model Zoo](#model-zoo)
+- [Dataset preparation](#dataset-preparation)
+- [Training, Evaluation and Prediction](#training-evaluation-and-prediction)
+- [Background Replacement](#background-replacement)
+- [Export and Deploy](#export-and-deploy)
+- [Acknowledgement](#acknowledgement)
 
 ## Installation
 
