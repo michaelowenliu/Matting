@@ -6,7 +6,7 @@
 </p>
 
 # One-click experience
-Try the online demo "[Non-Code Matting](http://seg.itmanbu.com/)".
+Try the online demo "[Non-Code Matting](https://easyseg.cn/)".
 
 
 <p align="center">
