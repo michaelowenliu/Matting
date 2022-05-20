@@ -151,7 +151,7 @@ val/fg/fg3.jpg bg/bg3.jpg val/trimap/trimap3.jpg
 ### Training
 ```shell
 export CUDA_VISIBLE_DEVICES=0
-python train.py \
+python tools/train.py \
        --config configs/modnet/modnet-mobilenetv2.yml \
        --do_eval \
        --use_vdl \
@@ -173,7 +173,7 @@ If you want to use multiple GPUs，please use `python -m paddle.distributed.laun
 ### Evaluation
 ```shell
 export CUDA_VISIBLE_DEVICES=0
-python val.py \
+python tools/val.py \
        --config configs/modnet/modnet-mobilenetv2.yml \
        --model_path output/best_model/model.pdparams \
        --save_dir ./output/results \
@@ -191,7 +191,7 @@ python val.py --help
 ### Prediction
 ```shell
 export CUDA_VISIBLE_DEVICES=0
-python predict.py \
+python tools/predict.py \
     --config configs/modnet/modnet-mobilenetv2.yml \
     --model_path output/best_model/model.pdparams \
     --image_path data/PPM-100/val/fg/ \
@@ -212,7 +212,7 @@ python predict.py --help
 ## Background Replacement
 ```shell
 export CUDA_VISIBLE_DEVICES=0
-python bg_replace.py \
+python tools/bg_replace.py \
     --config configs/modnet/modnet-mobilenetv2.yml \
     --model_path output/best_model/model.pdparams \
     --image_path path/to/your/image \
@@ -238,7 +238,7 @@ python bg_replace.py --help
 ## Export and Deploy
 ### Model Export
 ```shell
-python export.py \
+python tools/export.py \
     --config configs/modnet/modnet-mobilenetv2.yml \
     --model_path output/best_model/model.pdparams \
     --save_dir output/export
