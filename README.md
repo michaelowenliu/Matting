@@ -21,9 +21,9 @@ Matting is widely used in a variety of industries, such as video clip, video syn
   - [Contents](#contents)
   - [Installation](#installation)
       - [1. Install PaddlePaddle](#1-install-paddlepaddle)
-      - [2. Download the PaddleSeg repository](#2-download-the-paddleseg-repository)
+      - [2. Download the repository](#2-download-the-repository)
       - [3. Installation](#3-installation)
-  - [Models](#models)
+  - [Model Zoo](#model-zoo)
   - [Dataset preparation](#dataset-preparation)
   - [Training, Evaluation and Prediction](#training-evaluation-and-prediction)
     - [Training](#training)
@@ -47,7 +47,7 @@ Versions
 
 Due to the high computational cost of model, PaddleSeg is recommended for GPU version PaddlePaddle. CUDA 10.0 or later is recommended. See [PaddlePaddle official website](https://www.paddlepaddle.org.cn/install/quick?docurl=/documentation/docs/zh/install/pip/linux-pip.html) for the installation tutorial.
 
-#### 2. Download the PaddleSeg repository
+#### 2. Download the repository
 
 ```shell
 git clone https://github.com/michaelowenliu/Matting
@@ -60,7 +60,7 @@ cd Matting
 pip install -r requirements.txt
 ```
 
-## Models
+## Model Zoo
 Various human matting models are provided for you to select according the actual situation.
 
 Model recommend:
