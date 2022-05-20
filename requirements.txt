@@ -1,0 +1,5 @@
+paddleseg
+scikit-image
+numba
+pymatting
+opencv-python==4.5.4.60
