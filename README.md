@@ -7,7 +7,7 @@ Image Matting is the technique of extracting foreground from an image by calcula
 </p>
 
 # One-click experience
-Matting is widely used in a variety of industries, such as video clip, video synthesis and other fields，Some developers also built a one-click Matting website named "[Non-Code Matting](http://seg.itmanbu.com/)" based on PP-Matting，Welcome to use it.
+Try the online demo "[Non-Code Matting](http://seg.itmanbu.com/)".
 
 
 <p align="center">
